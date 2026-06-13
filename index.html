@@ -3,9 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Daily Grind | Artisan Café</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <header>
+        <a href="#" class="logo">
+            <img src="assets/images/The Daily Grind Cafe Logo.png" alt="The Daily Grind logo" width="50" height="50">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Go</button>
+        </div>
+        <button class="btn">Order Online</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Freshly Brewed,<br> Daily Preferred.</h1>
+                <p>Step into warmth. Discover our hand-roasted coffee and artisanal pastries <br> baked fresh every single morning.</p>
+                <a href="#menu" class="btn">View Menu</a>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <h2>Our Weekly Favorites</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src="assets/images/Glass cup of rich espresso coffee isolated on white background.jpeg" width="200" height="200" alt="Espresso">
+                    <h3>Espresso</h3>
+                    <p>Intense and aromatic, our espresso is the heart of every cup.<br> Perfect for a quick pick-me-up or as the base for your favorite coffee drinks.</p>
+                    <span class="price">$3.00</span>
+                </div>
+                <div class="menu-card">
+                    <img src="assets/images/Cortado.jpeg" width="200" height="200" alt="Cortado">
+                    <h3>Cortado</h3>
+                    <p>A perfect balance of espresso and steamed milk, creating a smooth and creamy texture.<br> Ideal for those who enjoy a stronger coffee flavor with a hint of milk.</p>
+                    <span class="price">$8.50</span>
+                </div>
+                <div class="menu-card">
+                    <img src="assets/images/Frappe vs_ Frappuccino 73.jpeg" width="200" height="200" alt="Frappe">
+                    <h3>Frappe</h3>
+                    <p>A refreshing blend of espresso and milk, topped with whipped cream and chocolate syrup.<br> Perfect for a cool treat on a warm day.</p>
+                    <span class="price">$5.00</span>
+                </div>
+                <div class="menu-card">
+                    <img src="assets/images/Cappuccino.jpeg" width="200" height="200" alt="Cappuccino">
+                    <h3>Cappuccino</h3>
+                    <p>A delightful combination of espresso, steamed milk, and velvety foam.<br> A classic favorite for those who appreciate a well-balanced coffee experience.</p>
+                    <span class="price">$4.00</span>
+                </div>
+                 <div class="menu-card">
+                    <img src="assets/images/Untitled design (1).png" width="200" height="200" alt="Irish Coffee">
+                    <h3>Irish Coffee</h3>
+                    <p>A rich and creamy blend of espresso, Irish whiskey, and steamed milk.<br> A perfect choice for those who enjoy a warm, alcoholic coffee experience.</p>
+                    <span class="price">$5.50</span>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>Founded with a passion for quality, we source our beans ethically <br> from sustainable farms.<br> Every cup is crafted with precision, and every pastry is rolled by hand.</p>
+            </div>
+            <div class="about-image">
+               <img src="assets/images/Untitled design (2).png" width="400" height="300" alt="About Us">     
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact-card">
+                <h2>Contact Us</h2>
+                <p>Send us a message and we’ll get back to you soon.</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your name" />
+                    <input type="email" placeholder="Your email" />
+                    <textarea placeholder="Your message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>📍 123 Espresso Lane, Coffee City</p>
+        <p>🕒 Mon - Sat: 7AM - 6PM | Sun: 8AM - 4PM</p>
+        <p>&copy; 2026 The Daily Grind. Crafted with love.</p>
+    </footer>
 </body>
 </html>
